@@ -4,11 +4,6 @@
   --color-primary-dark: rgb(71, 92, 68);
   --color-primary-disabled: rgb(103, 112, 99);
   --color-secondary: rgb(148, 134, 107);
-  --color-secondary-light: rgb(241, 235, 224);
-  --color-secondary-dark: rgb(77, 65, 62);
-  --color-secondary-dark-light: rgb(114, 99, 95);
-  --color-secondary-disabled: rgb(135, 129, 127);
-  --color-danger: rgb(167, 82, 67);
   --color-background: rgb(255, 255, 255);
 
   background-color: var(--color-background);
@@ -22,9 +17,4 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
 }

@@ -35,7 +35,7 @@ transition: background-color 0.2s;
 }
 
 &:active {
-  background-color: var(--color-secondary-light);
+  background-color: var(--color-primary-light);
 }
 `;
 
