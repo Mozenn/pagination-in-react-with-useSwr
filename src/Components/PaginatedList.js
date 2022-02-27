@@ -7,10 +7,7 @@ import Pagination from "./Pagination";
 import SortButton from "./SortButton";
 
 const fetcher = async (url) => {
-  console.log("url", url);
   const res = await axios.get(url);
-
-  console.log("res", res.data);
   return res.data;
 };
 
