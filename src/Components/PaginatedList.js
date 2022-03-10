@@ -36,8 +36,6 @@ const PaginatedList = () => {
     fetcher
   );
 
-  console.log(data);
-
   if (!data || !data.items) {
     return null;
   }
